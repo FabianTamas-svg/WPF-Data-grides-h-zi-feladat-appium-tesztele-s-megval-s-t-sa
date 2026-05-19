@@ -43,7 +43,7 @@ namespace WpfGyakorlat.Tests
                 textFields[0].SendKeys("Rici 5-öst ad!");
             }
 
-            // 4. Teszt: Képernyőkép (opcionális, de profi)
+            // 4. Teszt: Képernyőkép 
             var screenshot = _driver.GetScreenshot();
             Assert.NotNull(screenshot);
         }
