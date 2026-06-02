@@ -40,7 +40,7 @@ namespace WpfGyakorlat.Tests
             var textFields = _driver.FindElementsByTagName("Edit"); // WPF-ben az Edit a TextBox
             if (textFields.Count > 0)
             {
-                textFields[0].SendKeys("Rici 5-öst ad!");
+                textFields[0].SendKeys("Minden jó");
             }
 
             // 4. Teszt: Képernyőkép 
